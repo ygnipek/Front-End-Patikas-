@@ -1,0 +1,186 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.image,
+.input,
+.buttons {
+    margin-top: 0;
+}
+
+
+
+nav ul {
+    display: flex;
+    float: right;
+}
+
+
+nav ul li,
+a {
+    list-style-type: none;
+    margin: 0 0.5rem;
+    /* display: inline-block;
+    width: 50px;
+    height: 50px; */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: small;
+}
+
+
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* .container {
+    display: flex;
+    position: fixed;
+    top: 10%;
+    left: 30%;
+    flex-direction: column;
+
+} */
+
+.container .image {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+
+.buttons button {
+    margin: 0 10px;
+    padding: 0.5rem;
+    background-color: #F8F9FA;
+    border: 1px solid #F8F9FA;
+    border-radius: 5px;
+    font-size: 14px;
+    color: black;
+    opacity: 0.8;
+}
+
+.buttons button:hover {
+    cursor: pointer;
+    border: 1px solid hsl(207, 9%, 79%);
+    border-radius: 5px;
+}
+
+
+
+div.input input {
+    width: 480px;
+    margin-top: 20px;
+    border-radius: 30px;
+    padding: 15px;
+    border: 1px solid hsl(207, 9%, 79%);
+    background: url(./images/voicelogo.png) no-repeat scroll 7px 7px;
+    padding-left: 30px;
+    background-size: 25px 25px;
+}
+
+/* div.input input:visited {} */
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.alt-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.alt-footer .sag-footer {
+    display: flex;
+    float: right;
+    justify-content: space-between;
+}
+
+
+
+
+.ust-footer p {
+    color: black;
+    /* margin-bottom: 5rem; */
+    float: left;
+    margin-left: 25px;
+    color: #70757A;
+
+
+}
+
+.sol-footer {
+    display: flex;
+    justify-content: space-between;
+    float: left;
+}
+
+.sol-footer a {
+    margin: 0 10px;
+    color: #70757A;
+    text-decoration: none;
+}
+
+.sol-footer a:hover {
+    text-decoration: underline;
+}
+
+
+.sag-footer {
+    display: flex;
+    justify-content: right;
+}
+
+.alt-footer .sag-footer a {
+    margin: 0 1.5rem;
+    color: #70757A;
+    text-decoration: none;
+}
+
+.alt-footer .sag-footer a:hover {
+    text-decoration: underline;
+}
+
+.o-footer {
+    margin-left: -75px;
+}
+
+.o-footer a {
+    color: #70757A;
+    text-decoration: none;
+}
+
+.o-footer a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+/* div.input input:visited {
+
+    border:1px solid hsl(207, 9%, 79%) ;
+     box-shadow: 3px 5px #888888;
+} */
