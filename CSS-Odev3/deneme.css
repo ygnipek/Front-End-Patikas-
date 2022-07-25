@@ -37,14 +37,14 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
-/* .container {
+.container {
     display: flex;
     position: fixed;
     top: 10%;
     left: 30%;
     flex-direction: column;
 
-} */
+}
 
 .container .image {
     display: flex;
@@ -90,7 +90,7 @@ div.input input {
     background-size: 25px 25px;
 }
 
-/* div.input input:visited {} */
+
 
 footer {
     position: fixed;
